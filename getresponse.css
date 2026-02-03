@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+ul {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.left-box {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+}
+
+.right-box {
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    color: #fff;
+    border: 2px, solid, #00a2ff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #00a2ff;
+}
+
+.demo-btn {
+    color: #fc5b1a;
+    border: 2px, solid, #fc5b1a;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: none;
+
+}
+
+.demo-btn :hover {
+    background-color: #fc5b1a;
+    cursor: pointer;
+}
+
+/* hero-section */
+
+.hero-section {
+    height: 100vh;
+
+}
