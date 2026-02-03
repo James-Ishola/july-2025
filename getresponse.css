@@ -69,5 +69,10 @@ li {
 
 .hero-section {
     height: 100vh;
+    justify-content: center;
 
+}
+
+.hero-content {
+    text-align: center;
 }
